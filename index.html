@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/img/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>CV Oleg Bendiucov</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-container container">
+            <section id="profile" class="section">
+                <h1 class="section-title">Oleg Bendiucov</h1>
+
+                <img src="./assets/img/avatar.png" width="150" height="150" alt="Avatar Oleg Bendiucov">
+            </section>
+            <section id="contacts" class="section">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>
+                        <strong>E-mail:</strong>
+                        olegworktxt@gmail.com
+                    </li>
+                    <li>
+                        <strong>Discord:</strong>
+                        00biostalker
+                    </li>
+                </ul>
+            </section>
+            <section id="summary" class="section">
+                <h2 class="section-title">Summary</h2>
+                <p>I’m currently working in small IT company. I want to advance my knowlage in JS and ReactJS.</p>
+            </section>
+            <section id="skills" class="section">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>ReactJS</li>
+                    <li>NextJS</li>
+                    <li>Redux</li>
+                    <li>Material UI</li>
+                    <li>JQuery</li>
+                    <li>SASS/SCSS</li>
+                    <li>Bootstrap</li>
+                    <li>BackstopJS</li>
+                    <li>BEM</li>
+                    <li>Photoshop</li>
+                    <li>AdobeXD</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+            <section id="code" class="section">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                    <code>
+const countBits = n => {
+    if (n &lsaquo; 0) {
+        return;
+    }
+
+    return (n.toString(2).match(/[1]/g) || []).length;
+};
+                    </code>
+                </pre>
+            </section>
+            <section id="courses" class="section">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>ReactJS (codecademy)</li>
+                    <li>Course English A2 (fantastic-english)</li>
+                </ul>
+            </section>
+            <section id="projects" class="section">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li>BITSoft Landing (ReactJS) <a class="link" href="https://bitsoft.md/" target="_blank">bitsoft.md</a></li>
+                    <li>Rust Gambling Site (ReactJS) <a class="link" href="https://rustdrop.gg/" target="_blank">rustdrop.gg</a></li>
+                    <li>Chat for B2B platform (ReactJS) <a class="link" href="https://www.exportportal.com/" target="_blank">exportportal.com</a></li>
+                    <li>Import and Export B2B Platform (Fullstack developer) <a class="link" href="https://www.exportportal.com/" target="_blank">exportportal.com</a></li>
+                </ul>
+            </section>
+            <section id="education" class="section">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li><strong>2012 - 2014</strong> Master Degree in Exact Science specialization WEB Programming</li>
+                    <li><strong>2009 - 2012</strong> Bachelor Degree in Education Science  specialization Computer Science</li>
+                    <li><strong>1996 - 2008</strong> High-School degree</li>
+                </ul>
+            </section>
+            <section id="languages" class="section">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li><strong>Russian</strong> Native</li>
+                    <li><strong>Romanian</strong> Native</li>
+                    <li><strong>English</strong> A2</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="main-footer">
+            &copy; 2023 by
+            <a class="link" href="https://github.com/00oleg" target="_blank">00oleg</a>
+            <span>|</span>
+            <a href="https://rs.school/js/" target="_blank"><img width="54" height="20" src="./assets/img/rs_school_js.svg" alt="rs school js"></a>
+        </footer>
+    </body>
+</html>
